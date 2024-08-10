@@ -1,0 +1,318 @@
+En TICO’s, estamos usando tecnología avanzada para crear una plataforma web que sea fácil de usar, segura y de alta calidad. Estas herramientas son clave en cada paso del desarrollo, desde la planificación hasta el mantenimiento, asegurando que todo funcione de manera eficiente.
+*********************
+Análisis:
+   Usamos Visible Analysts para entender lo que nuestros futuros clientes necesitan. Esto nos ayuda a identificar los requisitos clave y evitar errores que puedan complicar el proyecto.
+
+Documentación:
+   Con Adobe RoboHelp, estamos creando manuales claros y organizados, tanto para los usuarios como para nuestro equipo, que nos serán útiles durante el desarrollo y mantenimiento.
+
+Desarrollo de Software:
+   Mockup Builder nos ayuda a diseñar prototipos interactivos para planificar la interfaz de usuario, asegurando que sea intuitiva y fácil de usar.
+
+Desarrollo Web:
+   Adobe Edge Inspect nos permite revisar y ajustar el diseño en diferentes dispositivos para que la web se vea bien en cualquier pantalla, ya sea una computadora o un celular.
+
+Mantenimiento:
+   Usamos Bugzilla para encontrar y corregir errores en la plataforma, manteniéndola estable y confiable.
+
+Aseguramiento de la Calidad:
+   Planeamos usar SoapTest para hacer pruebas y asegurarnos de que todo funcione correctamente.
+
+Programación:
+   Netbeans es nuestra herramienta principal para escribir y probar el código, lo que nos ayuda a crear un software sólido y eficiente.
+
+Diseño Web:
+   Herramientas como Brackets y Foundation 3 nos permiten diseñar una web sencilla y rápida de usar, que se vea bien en cualquier dispositivo.
+
+Usamos herramientas como Brackets y Foundation 3 para diseñar una web intuitiva que funcione bien en cualquier dispositivo. Nuestro enfoque es la simplicidad y la eficiencia, asegurando que TICO’s sea fácil de usar, confiable y esté siempre disponible para todos.
+
+Gestión de la Configuración:
+   Usamos Git para manejar las versiones del código y controlar los cambios, asegurando que cualquier actualización sea rápida y sin problemas.
+
+Control de Cambios:
+    Herramientas como Fossil nos ayudan a gestionar los cambios en el software, facilitando las actualizaciones.
+
+Modelado de Procesos:
+    Con EPF Composer, podemos planificar y ajustar el desarrollo del software según las necesidades del proyecto.
+
+Conclusión:
+En TICO’s, nuestro objetivo es crear una web fácil de usar, confiable y segura. Hemos explicado cómo cada herramienta nos ayuda a cumplir estos objetivos, asegurando que los usuarios puedan comprar y vender partes de computadoras sin complicaciones, en una plataforma intuitiva y eficiente. Estamos seguros de que TICO’s marcará la diferencia en el mundo de la compra y venta de partes de computadoras en línea.
+
+CICLO DE VIDA DEL SOFTWARE
+
+Herramientas CASE
+Herramientas  Computer Aided Software Engineering (Ingeniería de Software Asistida por
+Computadora).
+
+
+
+Ciclo de vida de desarrollo de sistemas (SDLC). 
+
+
+Las herramientas CASE se pueden dividir en las siguientes partes con base a su uso en una etapa concreta del SDLC:
+
+Depósito central - Las herramientas CASE requieren un Depósito central, el cual nos puede servir como fuente de
+común, consistente e integrada información. El depósito central, es un lugar central de almacenamiento, donde los
+requisitos del producto, los documentos requeridos, los informes y diagramas relacionados, y otra información útil
+sobre la gestión se almacena. El Depósito central también sirve como Diccionario de datos.
+
+Herramientas Upper CASE - Las Herramientas Upper CASE se usan en las etapas de planificación, análisis y diseño
+del SDLC.
+
+Herramientas Lower CASE - Las Herramientas Lower CASE se usan en la implementación, las pruebas y en el
+mantenimiento.
+
+Herramientas Integrated CASE - Las Herramientas Integrated CASE son de utilidad en todas las fases del SDLC, des
+de la educción de requisitos y las pruebas hasta la documentación.
+
+
+
+
+Componentes
+
+
+
+
+CASE Diagramas:
+
+Estas herramientas se usan para representar componentes del sistema, datos,
+y a controlar la fluidez de varios componentes y estructura del software de
+manera gráfica. Por ejemplo:
+
+'Flow Chart Maker' para crear los más novedosos Diagramas de flujos.
+
+StarUml
+
+VisualParadigm
+
+
+
+
+
+Modelado de procesos:
+
+El modelado de procesos es un método para crear modelos de proceso de
+software y se usa para desarrollar el software. Las herramientas para el
+modelado de procesos ayudan a los Directores a escoger un modelo de
+proceso o para modificarlo según los requerimientos del producto software.
+Por ejemplo:
+
+'EPF Composer‘
+
+Edraw
+
+Erwin
+
+
+
+
+
+
+Administración de procesos:
+
+Estas herramientas se usan para la planificación del proyecto, el coste y
+esfuerzo estimados, la temporalización y la organización de los recursos. Los
+Directivos deben coordinar de manera muy estricta la ejecución del proyecto
+con cada uno de los pasos mencionados con anterioridad para la buena
+gestión del proyecto software. Herramientas de administración de procesos
+ayudan a almacenar y a compartir información sobre el proyecto en tiempo
+real durante su organización. Ejemplos de este tipo de herramienta son:
+
+'Creative Pro Office',
+
+'Trac Project',
+
+'Basecamp'.
+
+
+
+
+Documentación:
+
+La documentación de un proyecto de software empieza antes que el proceso de software,
+pasa por todas las fases del SDLC y se concluye con la terminación del proyecto.
+
+Las Herramientas de documentación generan documentos tanto para el consumidor final
+como para consumidores de soporte técnico. Estos últimos son en su mayoría profesionales
+internos del equipo de desarrollo que consultan manuales de sistemas, manuales de
+referencia, manuales de formación, de instalación, etc. El consumidor final describe el
+funcionamiento e instrucciones del sistema como por ejemplo el manual para el usuario.
+Ejemplos de este tipo de herramientas son:
+
+Doxygen,
+
+DrExplain,
+
+Adobe RoboHelp.
+
+
+
+
+
+
+Diseño:
+
+Estas herramientas ayudan a los diseñadores de software a crear la estructura
+de los programas, la cual se puede más adelante desglosar en pequeños
+módulos usando técnicas de perfeccionamiento.
+
+Estas herramientas aportan los detalles de cada módulo y la interconexión
+presente entre estos. Un ejemplo de herramienta puede ser el diseño animado
+de software
+
+
+
+
+
+
+
+Gestión de la Configuración:
+
+Un ejemplo de software se lanza al mercado en una versión. Las
+Herramientas para la gestión de la Configuración se ocupa de ello –
+
+Control de versiones
+
+Línea base
+
+Gestión del control de cambios
+
+Las herramientas CASE ayudan en esto usando un rastreo automático,
+control de versiones y gestión de versiones. Por ejemplo,
+
+Fossil,
+
+Git,
+
+Accu REV.
+
+
+
+
+
+
+
+Control de cambios:
+
+Estas herramientas son consideradas como una parte de la configuración en la
+gestión de herramientas. Se ocupan de los cambios hechos en el software
+después de que se haya fijado su línea de base, o cuando el software se lanza
+por primera vez al mercado. Las herramientas CASE automatizan la opción
+'resaltar cambios', la gestión de archivos, la gestión del código, entre otros.
+También ayuda a ejecutar el cambio de principios en que se basa la
+organización.
+
+
+
+
+
+Análisis:
+
+Estas herramientas ayudan a cumplir con los requisitos, de manera automática
+examinan si hay alguna inconsistencia, o informaciones no acuradas
+(preparadas con esmero) en los diagramas, buscan posibles redundancias o
+omisiones erróneas. Ejemplos de este tipo de herramienta son:
+
+Accept 360
+
+Accompa
+
+CaseComplete para análisis de requisitos
+
+Visible Analysts para análisis total.
+
+
+
+
+
+Programación:
+
+Estas herramientas consisten en entornos de programación como IDE
+(Integrated Development Environment), biblioteca de módulos incorporada
+y herramientas de simulación. Estas herramientas proporcionan una ayuda
+completa para crear productos de software e incluyen funciones para
+simulación y pruebas. Por ejemplo:
+
+Cscope para buscar código en C,
+
+Eclipse
+
+Netbeans
+
+
+
+
+
+
+Desarrollo de software:
+
+El modelo de prototipo en Ingeniería de software, es una versión silmulada del producto
+software que se intenta conseguir. Este prototipo da una idea inicial del producto y simula
+algunos aspectos del producto real.
+
+Las Herramientas de modelos de prototipo CASEP, esencialmente vienen con bibliotecas
+gráficas. Pueden crear interfaces de usuario independientes del hardware y diseño. Estas
+herramientas nos ayudan a construir prototipos rápidos basados en información ya existente.
+Además producen prototipos de simulación de software. Por ejemplo,
+
+Serena prototype composer,
+
+Mockup Builder.
+
+
+
+
+
+Desarrollo Web:
+
+Estas herramientas ayudan en el diseño de páginas Web con todos los
+elementos relacionados como impresos, textos, secuencias de comando,
+gráficos y demás. Las herramientas Web también producen una vista
+preliminar en directo de lo que se está desarrollando y cómo será una vez
+terminado. Por ejemplo:
+
+Fontello
+
+Adobe Edge Inspect
+
+Foundation 3
+
+Brackets.
+
+
+
+
+
+
+Aseguramiento de la calidad:
+
+El aseguramiento de la calidad de una organización de Software es la
+supervisión del proceso de Ingeniería y de los métodos adoptados para
+desarrollar el producto software con tal de asegurar conformidad con la
+calidad según los estándares organizativos. Las herramientas de
+Aseguramiento de la calidad, constan de herramientas de control de cambios y
+configuración y de herramientas para pruebas de software. Por ejemplo:
+
+SoapTest,
+
+AppsWatch,
+
+JMeter.
+
+
+
+
+
+
+Mantenimiento:
+
+El mantenimiento del Software incluye modificaciones en el producto software
+después de ser distribuido. Algunas de las herramientas CASE que ayudan en la
+organización y la fase de mantenimiento del software del SDLC son las técnicas
+de inicio automático y de reporte de error, producción automática de etiqueta
+de error y de Análisis de Causa Raíz (ACR o RCA en sus siglas en inglés). Por
+ejemplo:
+
+Bugzilla para seguimiento de defectos
+
+HP Quality Center.
