@@ -1,6 +1,7 @@
 import cmath
 import math
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 def stronghold_positions(x, y, ring):
     # Limitar el número total de strongholds a 128
@@ -51,48 +52,40 @@ def plot_stronghold_positions(x, y, ring):
     ys = [pos[1] for pos in positions]
     
     # Crear el gráfico
-    plt.figure(figsize=(8, 8))
-    plt.scatter(xs, ys, c='blue', marker='o')
+    plt.figure(figsize=(12, 12))
+    plt.scatter(xs, ys, c='blue', marker='o', label='Strongholds calculados')
     
     # Marcar la posición inicial con un color diferente
     plt.scatter([x], [y], c='red', marker='x', label='Posición inicial')
     
+    # Añadir el área de margen de error (128x128 bloques)
+    margin = 64
+    plt.gca().add_patch(plt.Rectangle((x - margin, y - margin), 2 * margin, 2 * margin, 
+                                       color='gray', alpha=0.2, label='Área de margen de error'))
+    
+    # Añadir margen de error alrededor de cada punto de stronghold
+    for pos in positions:
+        circle = plt.Circle((pos[0], pos[1]), margin, color='blue', alpha=0.2, fill=True)
+        plt.gca().add_patch(circle)
+    
     # Configuración del gráfico
-    plt.title(f"Posiciones de Strongholds en el Anillo {ring}")
+    plt.title(f"Posiciones de Strongholds en el Anillo {ring} con Área de Margen de Error")
     plt.xlabel("Coordenada X")
     plt.ylabel("Coordenada Y")
     plt.axhline(0, color='black',linewidth=0.5)
     plt.axvline(0, color='black',linewidth=0.5)
     plt.grid(True)
     plt.legend()
+    
+    # Ajustar formato de los ejes para mostrar coordenadas normales
+    plt.gca().xaxis.set_major_formatter(ticker.FormatStrFormatter('%.0f'))
+    plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.0f'))
+    
     plt.show()
 
 # Ejemplo de uso
-x = -2136
-y = -1176
+x = -136
+y = 2568
 ring = 1
 
 plot_stronghold_positions(x, y, ring)
-
-
-# Explicación del código:
-# Entrada de datos:
-
-# x, y: Coordenadas del stronghold que ya conoces en el plano.
-# ring: Número del anillo donde se encuentra el stronghold.
-# Cálculo:
-
-# Convertimos las coordenadas en un número complejo para aprovechar la multiplicación y rotación de números complejos.
-# Según el anillo, determinamos cuántos strongholds hay.
-# Calculamos el ángulo entre cada stronghold en el anillo.
-# Rotamos el número complejo inicial el número de veces necesario, multiplicándolo por un número complejo con ángulo igual al ángulo entre strongholds.
-# Salida:
-
-# El programa devuelve una lista de tuplas con las coordenadas (x, y) de cada stronghold en el anillo.
-# Ejemplo de uso:
-# En el ejemplo proporcionado, el stronghold inicial está en las coordenadas (1000, -850) en el primer anillo. El programa calculará las coordenadas de los otros dos strongholds en ese anillo.
-
-# Puedes cambiar los valores de x, y y ring para adaptarlos a tus necesidades.
-
-# Control de Límite de Strongholds: Ahora el programa considera el número máximo de strongholds posibles (128) y ajusta la cantidad de strongholds en el octavo anillo para asegurarse de no exceder ese límite.
-# Validación del Anillo: Si se intenta calcular para un anillo mayor al octavo, el programa lanza una excepción (ValueError) indicando que solo existen 8 anillos con strongholds.
